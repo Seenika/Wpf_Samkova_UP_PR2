@@ -24,5 +24,25 @@ namespace Wpf_Samkova_PR2
         {
             InitializeComponent();
         }
+
+        private void ORazrabotchike_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Разработал данную программу студент группы ИСиП, Самкова К.С.");
+        }
+
+        private void Zakrit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Beliy_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Siniy_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.
+        }
     }
 }
