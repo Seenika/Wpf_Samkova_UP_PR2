@@ -42,7 +42,7 @@ namespace Wpf_Samkova_PR2
 
         private void Siniy_Click(object sender, RoutedEventArgs e)
         {
-            
+            this.Background = new SolidColorBrush(Colors.Blue);
         }
     }
 }

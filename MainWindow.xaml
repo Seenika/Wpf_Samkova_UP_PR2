@@ -8,14 +8,14 @@
         Title="Задание 1" Height="450" Width="800">
     <Grid>
         <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
-        <MenuItem Header="_Цвет фона">
-            <MenuItem x:Name="Krasniy" Header="_Крассый"/>
-            <MenuItem x:Name="Siniy" Header="_Синий" Click="Siniy_Click"/>
-            <MenuItem x:Name="Beliy" Header="_Белый" Click="Beliy_Click"/>
-            <Separator/>
-            <MenuItem x:Name="Zakrit" Header="_Закрыть" Click="Zakrit_Click"/>
-        </MenuItem>
-        <MenuItem x:Name="ORazrabotchike" Header="_О разработчике" Click="ORazrabotchike_Click"/>
+            <MenuItem Header="_Цвет фона">
+                <MenuItem x:Name="Krasniy" Header="_Крассый"/>
+                <MenuItem x:Name="Siniy" Header="_Синий" Click="Siniy_Click"/>
+                <MenuItem x:Name="Beliy" Header="_Белый" Click="Beliy_Click"/>
+                <Separator/>
+                <MenuItem x:Name="Zakrit" Header="_Закрыть" Click="Zakrit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="ORazrabotchike" Header="_О разработчике" Click="ORazrabotchike_Click"/>
         </Menu>
     </Grid>
 </Window>
