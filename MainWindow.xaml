@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:Wpf_Samkova_PR2"
         mc:Ignorable="d"
         Title="Задание 1" Height="450" Width="800">
-    <Grid>
-        <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
+    <Grid x:Name="Imy">
+        <Menu x:Name="Meny" BorderThickness="1">
             <MenuItem Header="_Цвет фона">
                 <MenuItem x:Name="Krasniy" Header="_Крассый"/>
                 <MenuItem x:Name="Siniy" Header="_Синий" Click="Siniy_Click"/>

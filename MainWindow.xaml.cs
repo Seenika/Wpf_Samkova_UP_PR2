@@ -23,6 +23,7 @@ namespace Wpf_Samkova_PR2
         public MainWindow()
         {
             InitializeComponent();
+            Imy.Background = Brushes.Blue;
         }
 
         private void ORazrabotchike_Click(object sender, RoutedEventArgs e)
@@ -42,7 +43,7 @@ namespace Wpf_Samkova_PR2
 
         private void Siniy_Click(object sender, RoutedEventArgs e)
         {
-            this.Background = new SolidColorBrush(Colors.Blue);
+            Meny.Background = Brushes.Blue;
         }
     }
 }
