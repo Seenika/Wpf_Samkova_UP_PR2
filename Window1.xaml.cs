@@ -19,14 +19,17 @@ namespace Wpf_Samkova_PR2
     /// </summary>
     public partial class Window1 : Window
     {
+        InkCanvas Prosto = new InkCanvas();
         public Window1()
         {
             InitializeComponent();
+            Prosto = Holst;
         }
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            Holst.DefaultDrawingAttributes.Width = ((Polzuok)sender).Value;
+            Prosto.DefaultDrawingAttributes.Height = Polzuok.Value;
+            Prosto.DefaultDrawingAttributes.Width = Polzuok.Value;
         }
 
         private void Krasniy_Click(object sender, RoutedEventArgs e)
@@ -42,6 +45,11 @@ namespace Wpf_Samkova_PR2
         private void Chorniy_Click(object sender, RoutedEventArgs e)
         {
             Holst.DefaultDrawingAttributes.Color = Colors.Black;
+        }
+
+        private void Beliy_Click(object sender, RoutedEventArgs e)
+        {
+            Holst.DefaultDrawingAttributes.Color = Colors.White;
         }
     }
 }

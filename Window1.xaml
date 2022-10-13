@@ -12,6 +12,7 @@
                 <Button x:Name="Krasniy" Content="Красный" Click="Krasniy_Click"/>
                 <Button x:Name="Siniy" Content="Синий" Click="Siniy_Click"/>
                 <Button x:Name="Chorniy" Content="Чёрный" Click="Chorniy_Click"/>
+                <Button x:Name="Beliy" Content="Ластик" Click="Beliy_Click"/>
                 <Separator/>
                 <Slider x:Name="Polzuok" Height="25" Width="100" Minimum="1" Maximum="100" Value="20" ValueChanged="Slider_ValueChanged"/>
             </MenuItem>
