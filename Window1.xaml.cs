@@ -23,5 +23,25 @@ namespace Wpf_Samkova_PR2
         {
             InitializeComponent();
         }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Holst.DefaultDrawingAttributes.Width = ((Polzuok)sender).Value;
+        }
+
+        private void Krasniy_Click(object sender, RoutedEventArgs e)
+        {
+            Holst.DefaultDrawingAttributes.Color = Colors.Red;
+        }
+
+        private void Siniy_Click(object sender, RoutedEventArgs e)
+        {
+            Holst.DefaultDrawingAttributes.Color = Colors.Blue;
+        }
+
+        private void Chorniy_Click(object sender, RoutedEventArgs e)
+        {
+            Holst.DefaultDrawingAttributes.Color = Colors.Black;
+        }
     }
 }

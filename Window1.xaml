@@ -7,16 +7,18 @@
         mc:Ignorable="d"
         Title="Задание 2" Height="450" Width="800" Background="White">
     <Grid>
-        <Menu x:Name="NastroykaKisti">
+        <Menu x:Name="NastroykaKisti" Background="White">
             <MenuItem Header="Настройка кисти">
-                <Button x:Name="Krasniy" Content="Красный"/>
+                <Button x:Name="Krasniy" Content="Красный" Click="Krasniy_Click"/>
+                <Button x:Name="Siniy" Content="Синий" Click="Siniy_Click"/>
+                <Button x:Name="Chorniy" Content="Чёрный" Click="Chorniy_Click"/>
                 <Separator/>
-                <Slider Height="25" Width="100" Minimum="1" Maximum="100" Value="20"/>
+                <Slider x:Name="Polzuok" Height="25" Width="100" Minimum="1" Maximum="100" Value="20" ValueChanged="Slider_ValueChanged"/>
             </MenuItem>
         </Menu>
-        <InkCanvas Margin="0,22,0,0">
+        <InkCanvas x:Name="Holst" Margin="0,22,0,0" Background="White">
             <InkCanvas.DefaultDrawingAttributes>
-                <DrawingAttributes Color="Red" Height="10" Width="1"/>
+                <DrawingAttributes Color="Black" Height="10" Width="10"/>
             </InkCanvas.DefaultDrawingAttributes>
         </InkCanvas>
     </Grid>
