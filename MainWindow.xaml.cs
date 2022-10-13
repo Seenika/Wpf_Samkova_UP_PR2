@@ -70,5 +70,12 @@ namespace Wpf_Samkova_PR2
         {
             this.Close();
         }
+
+        private void ZadanieDva_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
+        }
     }
 }

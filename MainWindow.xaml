@@ -36,6 +36,7 @@
             <Button x:Name="TipoKrasniy" Content="Красный" Click="TipoKrasniy_Click"/>
             <Button x:Name="TipoBeliy" Content="Белый" Click="TipoBeliy_Click"/>
             <Button x:Name="TipoZakrit" Content="Закрыть" Click="TipoZakrit_Click"/>
+            <Button x:Name="ZadanieDva" Content="Задание 2" Click="ZadanieDva_Click"/>
         </Menu>
     </Grid>
 </Window>
