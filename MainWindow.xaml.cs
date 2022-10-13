@@ -38,12 +38,37 @@ namespace Wpf_Samkova_PR2
 
         private void Beliy_Click(object sender, RoutedEventArgs e)
         {
-            
+            Meny.Background = Brushes.White;
         }
 
         private void Siniy_Click(object sender, RoutedEventArgs e)
         {
             Meny.Background = Brushes.Blue;
+        }
+
+        private void Krasniy_Click(object sender, RoutedEventArgs e)
+        {
+            Meny.Background = Brushes.Red;
+        }
+
+        private void TipoSiniy_Click(object sender, RoutedEventArgs e)
+        {
+            Meny.Background = Brushes.Blue;
+        }
+
+        private void TipoKrasniy_Click(object sender, RoutedEventArgs e)
+        {
+            Meny.Background = Brushes.Red;
+        }
+
+        private void TipoBeliy_Click(object sender, RoutedEventArgs e)
+        {
+            Meny.Background = Brushes.White;
+        }
+
+        private void TipoZakrit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
